@@ -1,0 +1,11 @@
+ The request to add 4 more types of Pokemons required me too add them to the enum "Type" declaration in the Pokemon class.
+
+ After that I also needed to add them to already existing methods "strongAgainst" and "weakAgainst", also in the pokemon class.
+ "StrongAgainst" and "WeakAgainst" is used to determine the damage-multiplier for the attack-damage. I started with
+ adding weaknesses and strengths to already existing types, according to the chart in the assignment.
+ After that the program works for the old types attacking the new types. I also needed to add the new types as
+ attackers and their strengths and weaknesses. I did that by copy-pasting the code for one of the old types and then
+ just changing the types around to match the chart provided.
+
+ The rest of the code ignores the pokemons type, and thus needed no change. The changes I needed to do to the code was
+ small and done quickly, which is very nice for development of a program.
